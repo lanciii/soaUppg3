@@ -92,10 +92,10 @@ public class RegRes {
             conn.setRequestMethod("GET");
             conn.setRequestProperty("Accept", "text/plain");
             
-            if (conn.getResponseCode() != 200){
+            /*if (conn.getResponseCode() != 200){
                 throw new RuntimeException("RuntimeException error : HTTP code : "
                         + conn.getResponseCode());
-            }
+            }*/
 
             BufferedReader br = new BufferedReader(new InputStreamReader(
                     (conn.getInputStream())));
@@ -124,10 +124,10 @@ public class RegRes {
             conn.setRequestMethod("GET");
             conn.setRequestProperty("Accept", "text/plain");
 
-            if (conn.getResponseCode() != 200){
+            /*if (conn.getResponseCode() != 200){
                 throw new RuntimeException("RuntimeException error : HTTP code : "
                         + conn.getResponseCode());
-            }
+            }*/
 
             BufferedReader br = new BufferedReader(new InputStreamReader(
                     (conn.getInputStream())));
