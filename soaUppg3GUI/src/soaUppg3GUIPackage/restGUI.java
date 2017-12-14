@@ -221,6 +221,11 @@ public class restGUI extends javax.swing.JFrame {
             BufferedReader br = new BufferedReader(new InputStreamReader(
                     (conn.getInputStream())));
             labelResponse.setText(br.readLine());
+            txtStudentID.setText("");
+            txtKursKod.setText("");
+            txtTermin.setText("");
+            txtProvnr.setText("");
+            txtBetyg.setText("");
             
             conn.disconnect();
                 
