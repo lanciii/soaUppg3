@@ -73,7 +73,7 @@ public class RegRes {
         // Lagra resultatet i databas. 
         regKlar = registerGrade(studentID,kurskod+termin,provnr,betyg);
         if(regKlar == true){
-            return "Reg. klar för " + studentID;
+            return "Registrering klar för " + studentID;
         }
         return "Registreringen misslyckades.";
         
