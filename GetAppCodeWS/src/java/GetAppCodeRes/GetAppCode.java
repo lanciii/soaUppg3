@@ -17,7 +17,6 @@ import javax.ws.rs.core.MediaType;
 /**
  * REST Web Service
  *
- * @author richa
  */
 @Path("GetAppCode")
 public class GetAppCode {
