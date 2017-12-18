@@ -18,10 +18,6 @@ import java.net.URLEncoder;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author richa
- */
 public class restGUI extends javax.swing.JFrame {
 
     /**
